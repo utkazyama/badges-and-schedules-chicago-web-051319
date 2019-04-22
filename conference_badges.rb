@@ -3,5 +3,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  each_with_index |speaker, index|
-  
+  each_with_index {|speaker, index|
+  }  
