@@ -19,9 +19,7 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  list=[]
-  batch_badge_creator(attendees)
-  list.pop
+  puts batch_badge_creator(attendees)[0]
 end
 
 
