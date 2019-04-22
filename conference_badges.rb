@@ -19,9 +19,5 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  list=[]
-  attendees.each do |badges, room|
-    list.push("#{badges},#{room+1}")
-  end
-  return list
+  puts assign_rooms(attendees)
 end
