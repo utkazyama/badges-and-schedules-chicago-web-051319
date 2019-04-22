@@ -14,5 +14,6 @@ def assign_rooms(array)
   list=[]
   array.each_with_index do |speaker, index|
   list.push("Hello, #{speaker}! You'll be assigned to room #{index+1}!")
-end
+ end
+ return list
 end
