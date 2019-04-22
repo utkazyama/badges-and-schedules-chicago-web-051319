@@ -4,4 +4,6 @@ end
 
 def batch_badge_creator(array)
   array.each_with_index |speaker, index|
-  return ""
+  return "Hello, #{speaker}! You'll be assigned to room #{index}!"
+end
+end
