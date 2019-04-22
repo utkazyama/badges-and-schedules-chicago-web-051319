@@ -21,7 +21,7 @@ end
 def printer(attendees)
   list=[]
   attendees.each do |badges, room|
-    list.push("#{badges},#{index+1}")
+    list.push("#{badges},#{room+1}")
   end
   return list
 end
