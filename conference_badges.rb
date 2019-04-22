@@ -20,7 +20,7 @@ end
 
 def printer(attendees)
   list=[]
-  list.push(batch_badge_creator(attendees))
+  batch_badge_creator(attendees)
 end
-list
-end
+
+
