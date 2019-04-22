@@ -4,4 +4,4 @@ end
 
 def batch_badge_creator(array)
   array.each_with_index |speaker, index|
-  
+  return ""
